@@ -16,17 +16,17 @@ Go 1.16 or higher
 
 ## Installation
 
-Save the program as server.go
+Save the program as main.go
 Ensure you have Go installed
 No additional dependencies required
 
 ## Usage
 
 Run the server with default settings (current directory, port 8080):
-go run server.go
+go run main.go
 
 Specify a custom directory and port:
-go run server.go -dir=/path/to/your/directory -port=8080
+go run main.go -dir=/path/to/your/directory -port=8080
 
 Access the files through a web browser at:
 http://localhost:8080
@@ -39,7 +39,7 @@ http://localhost:8080
 ### Example
 
 To serve files from /var/www/html on port 3000:
-go run server.go -dir=/var/www/html -port=3000
+go run main.go -dir=/var/www/html -port=3000
 
 ## Error Handling
 
